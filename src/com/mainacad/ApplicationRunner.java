@@ -15,7 +15,6 @@ public class ApplicationRunner {
         System.out.println(
                 "Square with" + " side " + square.getSide() +
                         " with area " + square.getArea());
-
         Circle cercle = new Circle();
         cercle.setRadius(12);
 
@@ -44,6 +43,6 @@ public class ApplicationRunner {
                         " Side of triangle b " +  triangleV1.getB() +
                         " Side of triangle c " +  triangleV1.getC() +
                         " with area " + triangleV1.getArea());
-          
+
     }
 }
